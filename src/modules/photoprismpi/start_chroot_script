@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# PhotoprismPi build script
+# Places the docker-compose.yml to run photoprisim
+# Written by <Author>
+# GPL V3
+########
+
+
+# Source error handling, leave this in place
+set -x
+set -e
+
+source /common.sh
+install_cleanup_trap
+
+unpack /filesystem/boot /boot

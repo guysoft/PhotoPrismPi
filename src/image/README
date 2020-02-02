@@ -1,0 +1,5 @@
+Place compressed Ubuntu 64bit image here.
+
+If not otherwise specified, the build script will always use the most
+recent compressed file matching the file name pattern "ubuntu-*.xz" located
+here.
