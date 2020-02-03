@@ -14,7 +14,7 @@ services:
     ports:
       - 80:2342 # [local port]:[container port]
     environment: # Run "photoprism help" and "photoprism config" too see all config options and current values
-      PHOTOPRISM_URL: "https://demo.photoprism.org/"
+      PHOTOPRISM_URL: "http://photoprismpi.local/"
       PHOTOPRISM_TITLE: "PhotoPrism"
       PHOTOPRISM_SUBTITLE: "Browse your life"
       PHOTOPRISM_DESCRIPTION: "Personal Photo Management powered by Go and Google TensorFlow. Free and open-source."

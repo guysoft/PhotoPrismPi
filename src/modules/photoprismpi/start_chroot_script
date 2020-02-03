@@ -13,4 +13,8 @@ set -e
 source /common.sh
 install_cleanup_trap
 
+apt-get update
+apt-get install avahi-daemon
+
 unpack /filesystem/boot /boot
+
