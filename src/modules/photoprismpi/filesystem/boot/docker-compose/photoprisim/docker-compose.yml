@@ -32,6 +32,7 @@ services:
       PHOTOPRISM_ADMIN_PASSWORD: "photoprism"
     volumes:
       - "/home/ububtu/Pictures/Originals:/home/photoprism/Pictures/Originals" # [local path]:[container path]
+      - "/media:/home/photoprism/Pictures/Originals/media:ro"
       - "/home/ububtu/Pictures/Import:/home/photoprism/Pictures/Import" # [local path]:[container path] (optional)
       - "/home/ububtu/Pictures/Export:/home/photoprism/Pictures/Export" # [local path]:[container path] (optional)
       - "photoprism-cache:/home/photoprism/.cache/photoprism" # keep thumbnail cache
