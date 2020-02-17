@@ -17,8 +17,8 @@ How to use it?
 #. Configure your WiFi by editing ``photoprismpi-wpa-supplicant.txt`` at the root of the flashed card when using it like a flash drive
 #. Boot the Pi from the SD card
 #. Hostname is ``photoprismpi`` (not ``raspberrypi`` as usual), username: ``ubuntu`` and inital password is: ``ubuntu``
-#. after a few mintues you should be able to access ``http://photoprismpi.local/``
-#. If you attach an usb storage device it should be avilable for indexing automatically.
+#. After a few mintues you should be able to access ``http://photoprismpi.local/``
+#. If you attach a usb storage device it should be avilable for indexing automatically.
 #. You can change the settings of photoprism in the file locate at ``/boot/firmware/docker-compose/photoprism/docker-compose.yml``
 
 
