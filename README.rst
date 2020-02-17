@@ -19,7 +19,7 @@ How to use it?
 #. Hostname is ``photoprismpi`` (not ``raspberrypi`` as usual), username: ``ubuntu`` and inital password is: ``ubuntu``
 #. After a few mintues you should be able to access ``http://photoprismpi.local/``
 #. If you attach a usb storage device it should be avilable for indexing automatically.
-#. You can change the settings of photoprism in the file locate at ``/boot/firmware/docker-compose/photoprism/docker-compose.yml``
+#. You can change the settings of photoprism in the file located at ``/boot/firmware/docker-compose/photoprism/docker-compose.yml``
 
 
 Requirements
