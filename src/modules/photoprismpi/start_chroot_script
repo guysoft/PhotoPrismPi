@@ -16,5 +16,5 @@ install_cleanup_trap
 apt-get update
 apt-get install -y avahi-daemon
 
-unpack /filesystem/boot /boot
+unpack /filesystem/boot /"${BASE_BOOT_MOUNT_PATH}"
 
