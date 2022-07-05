@@ -36,7 +36,7 @@ jobs:
         run: echo Hello, world!
       
       - name: Copy base image into place
-        run: wget -c -O ./image --trust-server-names 'https://cdimage.ubuntu.com/releases/20.04/release/ubuntu-20.04.4-preinstalled-server-arm64+raspi.img.xz'
+        run: wget -c -P ./image --trust-server-names 'https://cdimage.ubuntu.com/releases/20.04/release/ubuntu-20.04.4-preinstalled-server-arm64+raspi.img.xz'
                 
       - name: Start docker-compose environment
         run: docker-compose up -d
