@@ -46,12 +46,16 @@ jobs:
         
       - name: Save the built image
         run: ls -al workspace
+      
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
         
-      #- name: Upload image as artifact
-      #  uses: actions/upload-artifact@v2
-      #  with:
-      #    name: PhotoPrismPi-image.xyz
-      #    path: workspace/something...
+      - name: Upload image as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: PhotoPrismPi-image-build-${{ steps.date.outputs.date }}
+          path: workspace/*.zip
 
 
         
