@@ -45,7 +45,7 @@ jobs:
         run: docker exec -t photoprismpi-build build
         
       - name: Save the built image
-        run: ls -al
+        run: ls -al workspace
         
 
         
