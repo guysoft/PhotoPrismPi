@@ -55,7 +55,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: PhotoPrismPi-image-build-${{ steps.date.outputs.date }}
-          path: workspace/*.zip
+          path: workspace/photoprismpi-default-20.04.4-preinstalled-server-arm64+raspi-0.2.0.zip
 
 
         
