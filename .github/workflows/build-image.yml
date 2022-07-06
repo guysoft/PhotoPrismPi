@@ -42,7 +42,7 @@ jobs:
         run: docker-compose up -d
         
       - name: Build the image with docker exec command
-        run: docker exec -T photoprismpi-build build
+        run: docker exec -t photoprismpi-build build
         
       - name: Save the built image
         run: ls -al
